@@ -15,8 +15,9 @@ class UserResource extends JsonResource
     public function toArray($request)
     {
         return [
-            'name' => $this->name
+            'name' => $this->name,
+            'birth_date' => $this->birth_date
         ];
     }
-    public static $wrap = null;
+    //public static $wrap = null;
 }

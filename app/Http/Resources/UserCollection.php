@@ -22,5 +22,4 @@ class UserCollection extends ResourceCollection
         });
         //return $this->collection;
     }
-    public static $wrap = null;
 }
